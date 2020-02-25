@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.198" height="39.585" viewBox="0 0 50.198 39.585">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3,.cls-5{fill:none}.cls-1,.cls-2{stroke:#8bc540}.cls-1,.cls-3{stroke-linecap:round}.cls-3{stroke:#072833;stroke-width:2px}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_27" data-name="Group 27" transform="translate(-229 -500.415)">
+        <path id="Line_63" d="M0 0h16" class="cls-1" data-name="Line 63" transform="translate(257 525)"/>
+        <path id="Line_70" d="M0 0h10" class="cls-1" data-name="Line 70" transform="translate(238 507)"/>
+        <path id="Line_64" d="M0 0h12" class="cls-1" data-name="Line 64" transform="translate(257 528)"/>
+        <path id="Line_69" d="M0 0h16" class="cls-1" data-name="Line 69" transform="translate(238 510)"/>
+        <g id="Ellipse_12" class="cls-2" data-name="Ellipse 12" transform="translate(229 522)">
+            <circle cx="9" cy="9" r="9" class="cls-4"/>
+            <circle cx="9" cy="9" r="8.5" class="cls-5"/>
+        </g>
+        <g id="Group_26" data-name="Group 26" transform="rotate(90 177.513 604.233)">
+            <path id="Path_25" d="M92.363 548.918H74.7l.42-45.37h33.2v26.906" class="cls-3" data-name="Path 25"/>
+        </g>
+        <g id="Rectangle_62" class="cls-2" data-name="Rectangle 62">
+            <path d="M0 0h7v9H0z" class="cls-4" transform="translate(266 506)"/>
+            <path d="M.5.5h6v8h-6z" class="cls-5" transform="translate(266 506)"/>
+        </g>
+        <g id="Group_28" data-name="Group 28" transform="translate(0 -.5)">
+            <g id="Group_24" data-name="Group 24" transform="rotate(-90 250.161 556.42)">
+                <path id="Line_65" d="M0 2.487L2.5 0" class="cls-1" data-name="Line 65" transform="translate(275.081 546.272)"/>
+                <path id="Line_66" d="M2.5 2.487L0 0" class="cls-1" data-name="Line 66" transform="translate(272.581 546.272)"/>
+            </g>
+            <path id="Line_71" d="M8 0H0" class="cls-1" data-name="Line 71" transform="translate(234 531.5)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.279" height="54.443" viewBox="0 0 54.279 54.443">
+    <defs>
+        <style>
+            .cls-1{fill:#072833;fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="_---" data-name="---" transform="translate(-.152 -.24)">
+        <g id="Mortage_menu_tabs_none" data-name="Mortage/menu_tabs/none" transform="translate(-116 -1)">
+            <g id="Group-49">
+                <g id="Group-3" transform="translate(115.918)">
+                    <g id="Group" transform="translate(0 1.037)">
+                        <g id="Group-2">
+                            <path id="Fill-1" d="M19.6 25.858h6.1V3.4h-6.1zm-3.334 3.2H29.04V.2H16.27z" class="cls-1"/>
+                            <path id="Fill-2" d="M.234 35.391h54.278V32.2H.234z" class="cls-1"/>
+                            <path id="Fill-3" d="M3.556 47.849h15.689v-6.086H3.556zm-3.322 6.8h3.322v-3.615h19.012V38.575H.234v16.071z" class="cls-1"/>
+                            <path id="Fill-4" d="M41.743 3.4v25.659h3.332V9.8l6.1-6.4v25.659h3.336V.2h-4.682l-4.754 4.97V.2h-4.681L32.3 8.59v20.469h3.34V9.8z" class="cls-1"/>
+                            <path id="Fill-5" d="M29.141 47.849H38.4v-6.086h-9.259zm12.723 0h9.327v-6.086h-9.327zm-16.046 3.185H38.4v3.612h3.466v-3.612h12.647V38.575h-28.7v12.459z" class="cls-1"/>
+                            <path id="Fill-6" d="M3.57 9.8l6.1-6.4v22.459h-6.1zm6.1 19.257h3.335V.2H8.324L.235 8.59v20.469z" class="cls-1"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

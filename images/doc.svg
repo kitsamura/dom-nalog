@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.305" height="50.452" viewBox="0 0 40.305 50.452">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3,.cls-5{fill:none}.cls-1,.cls-2{stroke:#8bc540}.cls-1,.cls-3{stroke-linecap:round}.cls-3{stroke:#072833;stroke-width:2px}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_25" data-name="Group 25" transform="translate(-244.695 -502.548)">
+        <path id="Line_61" d="M0 0h20" class="cls-1" data-name="Line 61" transform="translate(253 512)"/>
+        <path id="Line_62" d="M0 0h20" class="cls-1" data-name="Line 62" transform="translate(253 518)"/>
+        <path id="Line_63" d="M0 0h20" class="cls-1" data-name="Line 63" transform="translate(253 524)"/>
+        <path id="Line_64" d="M0 0h12" class="cls-1" data-name="Line 64" transform="translate(253 530)"/>
+        <g id="Ellipse_12" class="cls-2" data-name="Ellipse 12" transform="translate(267 535)">
+            <circle cx="9" cy="9" r="9" class="cls-4"/>
+            <circle cx="9" cy="9" r="8.5" class="cls-5"/>
+        </g>
+        <g id="Group_24" data-name="Group 24" transform="translate(-1.081 -.772)">
+            <path id="Line_65" d="M0 6l6-6" class="cls-1" data-name="Line 65" transform="translate(275.081 541.772)"/>
+            <path id="Line_66" d="M2 2L0 0" class="cls-1" data-name="Line 66" transform="translate(273.081 545.772)"/>
+        </g>
+        <g id="Group_26" data-name="Group 26" transform="translate(171)">
+            <path id="Path_25" d="M93.339 548.918H74.7l.42-45.37h33.2v28.233" class="cls-3" data-name="Path 25"/>
+        </g>
+    </g>
+</svg>

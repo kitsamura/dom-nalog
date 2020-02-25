@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="round-arrow_drop_down-24px" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#072833}
+        </style>
+    </defs>
+    <path id="Path_8" d="M0 0h24v24H0z" class="cls-1" data-name="Path 8"/>
+    <path id="Path_9" d="M8.71 11.71l2.59 2.59a1 1 0 0 0 1.41 0l2.59-2.59a1 1 0 0 0-.71-1.71H9.41a1 1 0 0 0-.7 1.71z" class="cls-2" data-name="Path 9"/>
+</svg>

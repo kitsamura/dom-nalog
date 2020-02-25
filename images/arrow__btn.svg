@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.12" height="7.067" viewBox="0 0 16.12 7.067">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#072833}.cls-2{fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="Artboard" transform="translate(-240 -139.483)">
+        <g id="Удлиненная_вправо" transform="rotate(180 128.5 69.5)">
+            <path id="Rectangle" d="M0 0h5v2H0z" class="cls-1" transform="rotate(45 7.71 .063)"/>
+            <path id="Rectangle-Copy" d="M0 0h5v2H0z" class="cls-1" transform="rotate(-45 -4.407 -3.07)"/>
+            <path id="Rectangle-46-Copy" d="M8.5 3.5h2v-15h-2z" class="cls-2" transform="rotate(90 9.5 -4)"/>
+        </g>
+    </g>
+</svg>

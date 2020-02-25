@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.001" height="45.064" viewBox="0 0 44.001 45.064">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-1{stroke:#0b2c37;stroke-linecap:round;stroke-width:2px}.cls-2,.cls-5{fill:#8bc540}.cls-2{stroke:#8bc540;stroke-width:.2px}.cls-4,.cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_22" data-name="Group 22" transform="translate(-237.826 -368.602)">
+        <path id="Path_18" d="M249.247 381.551l.308-11s-6.613-1.781-8.654 2.173a23.029 23.029 0 0 0 .879 20.9c4.664 8.538 10.028 12.456 18.378 14.371s8.242-7.295 8.242-7.295l-9.63-3.6s-5.481 3.989-10.56-4.533 1.037-11.016 1.037-11.016z" class="cls-1" data-name="Path 18" transform="translate(.01 4.392)"/>
+        <path id="Path_19" d="M252.345 372.77c14.727-8.752 27.361 3.107 27.281 14.132a17.114 17.114 0 0 1-9.366 15.2" class="cls-1" data-name="Path 19" transform="translate(1.2)"/>
+        <path id="Path_24" d="M.765 1.055V.24L6.133-6.7a3.486 3.486 0 0 0 .518-.99 3.256 3.256 0 0 0 .2-1.064 2.54 2.54 0 0 0-.167-.916 2.146 2.146 0 0 0-.49-.759 2.291 2.291 0 0 0-.8-.509 3.006 3.006 0 0 0-1.1-.185 2.527 2.527 0 0 0-1.61.555 2.683 2.683 0 0 0-.944 1.444l-.833-.13a3.35 3.35 0 0 1 .472-1.092 3.408 3.408 0 0 1 .777-.824 3.525 3.525 0 0 1 1-.527 3.521 3.521 0 0 1 1.144-.186 4.189 4.189 0 0 1 1.434.231A3.108 3.108 0 0 1 6.817-11a2.789 2.789 0 0 1 .676.972 3.146 3.146 0 0 1 .231 1.222 4.055 4.055 0 0 1-.213 1.249 3.835 3.835 0 0 1-.675 1.227L1.764.259h5.868v.8zM15.7-1.018v2.073h-.8v-2.073H9.112V-1.8L13.7-11.827h.907L9.945-1.8h4.96v-3.975h.8V-1.8h1.148v.777z" class="cls-2" data-name="Path 24" transform="translate(254.87 393.466)"/>
+        <g id="Polygon_1" class="cls-3" data-name="Polygon 1">
+            <path d="M1.633 0l1.633 4.355H0z" class="cls-4" transform="rotate(180 132.572 188.278)"/>
+            <path d="M1.633 0l1.633 4.355H0L1.633 0z" class="cls-5" transform="rotate(180 132.572 188.278)"/>
+        </g>
+        <g id="Polygon_2" class="cls-3" data-name="Polygon 2">
+            <path d="M1.633 0l1.633 4.355H0z" class="cls-4" transform="rotate(-90 331.194 57.338)"/>
+            <path d="M1.633 0l1.633 4.355H0L1.633 0z" class="cls-5" transform="rotate(-90 331.194 57.338)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>Налоговая поддержка ДОМ.РФ</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="icon" type="image/png" href="https://дом.рф/local/templates/.default/favicon.ico" sizes="32x32">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/jquery.maskedinput.js"></script>
+    <script id="wow" src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./js/main.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function ()
+
+            {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode
+                .insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(45116154, "init",
+
+            {
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true
+            }
+        );
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/45116154" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+
+    <div class="blur">
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header__nav">
+                    <a href="https://xn--d1aqf.xn--p1ai/" target=_blank class="header__logo dom__logo">
+                        <img src="./images/header__logo1.png" class="logo__dom">
+                    </a>
+                    <a href="https://amulex.ru/" target=_blank class="header__logo header__logo_amulex">
+                        <img src="./images/amulex__logo.svg" class="logo__amulex">
+                    </a>
+                </div>
+                <div class="header__main">
+                    <div class="header__content">
+                        <h1 class="header__title">
+                            Налоговый вычет
+                        </h1>
+                        <p class="header__text">
+                            Заплатили налоги?<br>
+                            Оформите вычет и государство вернет вам часть денежных средств
+                        </p>
+                        <div class="header__icons">
+                            <div class="icons_flex">
+                                <div class="icon icon__call">
+                                    <p>Бесплатный звонок</p>
+                                    <img src="images/call.svg" alt="">
+                                </div>
+                                <div class="icon icon__doc">
+                                    <p>Проверка документов</p>
+                                    <img src="images/doc.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="icons_flex">
+                                <div class="icon icon__consul">
+                                    <p>Подробная консультация</p>
+                                    <img src="images/consul.svg" alt="">
+                                </div>
+                                <div class="icon icon__declaration">
+                                    <p>Заполнение и отправка
+                                        декларации </p>
+                                    <img src="images/declaration.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#tarif" class="scrollTo header__btn">
+                            Получить вычет
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="what" id="what">
+            <div class="container">
+                <div class="what__block">
+                    <div class="what__content">
+                        <h3 class="what__title">
+                            Что такое налоговый вычет?
+                        </h3>
+                        <p class="what__text">
+                            Налоговый вычет — это сумма, подлежащая возврату из уплаченных вами же НДФЛ в случае, если в
+                            течение года вы понесли определенные расходы (обучение, лечение, покупка недвижимости и
+                            т.д.).
+                        </p>
+                        <hr class="what__hr">
+                        <!-- <a href="#" class="what__btn">
+                            Узнать больше
+                        </a> -->
+                    </div>
+                    <div class="what__image">
+                        <img src="./images/what__img.jpg" class="what__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="when" id="when">
+            <div class="container">
+                <h2 class="title when__title">
+                    Когда можно получить налоговый вычет?
+                </h2>
+                <span class="subtitle">
+                    Вы можете вернуть налог, если:
+                </span>
+                <div class="when__list">
+                    <div class="when__item border-button">
+                        <div class="when__image">
+                            <img src="./images/when1.jpg" class="when__img">
+                            <img src="./images/when11.jpg" class="when__img_mobile">
+                        </div>
+                        <div class="when__content">
+                            <h4 class="when__itemTitle">
+                                Брали ипотеку
+                            </h4>
+                            <span class="when__itemSubtitle">
+                                Возврат процентов, уплаченных по ипотечному кредиту
+                            </span><br>
+                            <a href="#tarif" class="scrollTo when__itemBtn green_hover">
+                                Получить налоговый вычет
+                            </a>
+                        </div>
+                        <div class="when__value">
+                            <span class="when__valueText">
+                                возврат налога до
+                            </span>
+                            <span class="when__valuePrice">
+                                390 000
+                            </span>
+                        </div>
+                    </div>
+                    <div class="when__item border-button">
+                        <div class="when__image">
+                            <img src="./images/when2.jpg" class="when__img">
+                            <img src="./images/when22.jpg" class="when__img_mobile">
+                        </div>
+                        <div class="when__content">
+                            <h4 class="when__itemTitle">
+                                Открыли индивидуальный <br> инвестиционный счет
+                            </h4>
+                            <span class="when__itemSubtitle">
+                                Вычет за взносы на ИИС или за полученную по ИИС прибыль
+                            </span><br>
+                            <a href="#tarif" class="scrollTo when__itemBtn green_hover">
+                                Получить налоговый вычет
+                            </a>
+                        </div>
+                        <div class="when__value">
+                            <span class="when__valueText">
+                                возврат налога до
+                            </span>
+                            <span class="when__valuePrice">
+                                52 000
+                            </span>
+                        </div>
+                    </div>
+                    <div class="when__item border-button">
+                        <div class="when__image">
+                            <img src="./images/when3.jpg" class="when__img">
+                            <img src="./images/when33.jpg" class="when__img_mobile">
+                        </div>
+                        <div class="when__content">
+                            <h4 class="when__itemTitle">
+                                Строили / покупали жилье
+                            </h4>
+                            <span class="when__itemSubtitle">
+                                Вычет за расходы на стройку, ремонт или приобретение готовой недвижимости
+                            </span><br>
+                            <a href="#tarif" class="scrollTo when__itemBtn green_hover">
+                                Получить налоговый вычет
+                            </a>
+
+                        </div>
+                        <div class="when__value">
+                            <span class="when__valueText">
+                                возврат налога до
+                            </span>
+                            <span class="when__valuePrice">
+                                260 000
+                            </span>
+                        </div>
+                    </div>
+                    <div class="when__item border-button">
+                        <div class="when__image">
+                            <img src="./images/when4.jpg" class="when__img">
+                            <img src="./images/when44.jpg" class="when__img_mobile">
+
+                        </div>
+                        <div class="when__content">
+                            <h4 class="when__itemTitle">
+                                Проходили лечение
+                            </h4>
+                            <span class="when__itemSubtitle">
+                                Вычет за расходы на медицинские услуги
+                            </span><br>
+                            <a href="#tarif" class="scrollTo when__itemBtn green_hover">
+                                Получить налоговый вычет
+                            </a>
+
+                        </div>
+                        <div class="when__value">
+                            <span class="when__valueText">
+                                возврат налога до
+                            </span>
+                            <span class="when__valuePrice">
+                                15 600
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <a class="when__more green_hover">
+                    Показать еще
+                </a>
+                <div class="inactive">
+                    <div class="when__item border-button">
+                        <div class="when__image">
+                            <img src="./images/when5.jpg" class="when__img">
+                            <img src="./images/when55.jpg" class="when__img_mobile">
+
+                        </div>
+                        <div class="when__content">
+                            <h4 class="when__itemTitle">
+                                Откладывали на пенсию
+                            </h4>
+                            <span class="when__itemSubtitle">
+                                Налоговый возврат за взносы в негосударственные пенсионные фонды
+                            </span><br>
+                            <a href="#tarif" class="scrollTo when__itemBtn green_hover">
+                                Получить налоговый вычет
+                            </a>
+                        </div>
+
+                        <div class="when__value">
+                            <span class="when__valueText">
+                                возврат налога до
+                            </span>
+                            <span class="when__valuePrice">
+                                15 600
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inactive">
+                    <div class="when__item border-button">
+                        <div class="when__image">
+                            <img src="./images/when6.jpg" class="when__img">
+                            <img src="./images/when66.jpg" class="when__img_mobile">
+
+                        </div>
+                        <div class="when__content">
+                            <h4 class="when__itemTitle">
+                                Оплачивали обучение
+                            </h4>
+                            <span class="when__itemSubtitle">
+                                Вычет за расходы на свое обучение или образование ваших детей
+                            </span><br>
+                            <a href="#tarif" class="scrollTo when__itemBtn green_hover">
+                                Получить налоговый вычет
+                            </a>
+                        </div>
+
+                        <div class="when__value">
+                            <span class="when__valueText">
+                                возврат налога до
+                            </span>
+                            <span class="when__valuePrice">
+                                15 600
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inactive">
+                    <div class="when__item border-button">
+                        <div class="when__image">
+                            <img src="./images/when7.jpg" class="when__img">
+                            <img src="./images/when77.jpg" class="when__img_mobile">
+                        </div>
+                        <div class="when__content">
+                            <h4 class="when__itemTitle">
+                                Страховали жизнь
+                            </h4>
+                            <span class="when__itemSubtitle">
+                                Вычет за расходы на страхование здоровья и жизни
+                            </span><br>
+                            <a href="#tarif" class="scrollTo when__itemBtn green_hover">
+                                Получить налоговый вычет
+                            </a>
+                        </div>
+
+                        <div class="when__value">
+                            <span class="when__valueText">
+                                возврат налога до
+                            </span>
+                            <span class="when__valuePrice">
+                                15 600
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inactive">
+                    <div class="when__item border-button">
+                        <div class="when__image">
+                            <img src="./images/when8.jpg" class="when__img">
+                            <img src="./images/when88.jpg" class="when__img_mobile">
+
+                        </div>
+                        <div class="when__content">
+
+                            <h4 class="when__itemTitle">
+                                Покупали медикаменты
+
+                            </h4>
+
+                            <span class="when__itemSubtitle">
+                                Налоговый возврат за покупку лекарств
+                            </span><br>
+                            <a href="#tarif" class="scrollTo when__itemBtn green_hover">
+                                Получить налоговый вычет
+                            </a>
+                        </div>
+                        <div class="when__value">
+                            <span class="when__valueText">
+                                возврат налога до
+                            </span>
+                            <span class="when__valuePrice">
+                                15 600
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how" id="how" style="display: none;">
+            <div class="container">
+                <h2 class="title how__title">
+                    Как узнать, сколько я могу вернуть у государства?
+                </h2>
+                <span class="subtitle">
+                    Размер вычета зависит от многих факторов и рассчитывается индивидуально, но существует верхняя
+                    планка:
+                </span>
+                <div class="how__list">
+                    <div class="how__row how__head">
+                        <div class="how__key">
+                            Если вы:
+                        </div>
+                        <div class="how__value">
+                            Можно Вернуть до:
+                        </div>
+                    </div>
+                    <div class="how__row">
+                        <div class="how__key">
+                            Брали ипотеку
+                        </div>
+                        <div class="how__value">
+                            390 000 руб.
+                        </div>
+                    </div>
+                    <div class="how__row">
+                        <div class="how__key">
+                            Строили/покупали жилье
+                        </div>
+                        <div class="how__value">
+                            260 000 руб.
+                        </div>
+                    </div>
+                    <div class="how__row">
+                        <div class="how__key">
+                            Открыли ИИС
+                        </div>
+                        <div class="how__value">
+                            52 000 руб.
+                        </div>
+                    </div>
+                    <div class="how__row">
+                        <div class="how__key">
+                            Проходили лечение
+                        </div>
+                        <div class="how__value">
+                            15 600 руб.
+                        </div>
+                    </div>
+                    <div class="how__row">
+                        <div class="how__key">
+                            Оплачивали обучение
+                        </div>
+                        <div class="how__value">
+                            15 600 руб.
+                        </div>
+                    </div>
+                    <div class="how__row">
+                        <div class="how__key">
+                            Страховали жизнь
+                        </div>
+                        <div class="how__value">
+                            15 600 руб.
+                        </div>
+                    </div>
+                    <div class="how__row">
+                        <div class="how__key">
+                            Покупали медикаменты
+                        </div>
+                        <div class="how__value">
+                            15 600 руб.
+                        </div>
+                    </div>
+                    <div class="how__row">
+                        <div class="how__key">
+                            Откладывали на пенсию
+                        </div>
+                        <div class="how__value">
+                            15 600 руб.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tarif" id="tarif">
+            <div class="tariff__toggle">
+                <div class="container">
+                    <div class="tariff__toggle_flex">
+                        <div>
+                            <h2 class="title tariff__title">
+                                Тарифы «Налоговая поддержка»
+                            </h2>
+                            <p class="tariff__podtitle"> Три тарифа на выбор для всех случаев жизни</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container container__tariff animated wow">
+                <div class="tariff__table">
+                    <div class="tariff__row tariff__row_head">
+                        <div class="tariff__rowTitle description">
+                            Описание
+                        </div>
+                        <div class="tariff__selector">
+                            <select name="box" id="selector">
+                                <option value="light">Тариф «Налоговая поддержка Лайт»<img src="images/selectarrow.svg"
+                                        alt=""></option>
+                                <option value="standart">Тариф «Налоговая поддержка»</option>
+                                <option value="vip">Тариф «Налоговая поддержка ВИП»</option>
+
+                            </select>
+                        </div>
+                        <div class="tariff__rowValue">
+                            Налоговая поддержка Лайт
+                        </div>
+                        <div class="tariff__rowValue">
+                            Налоговая поддержка
+                        </div>
+                        <div class="tariff__rowValue">
+                            Налоговая поддержка ВИП
+                        </div>
+                    </div>
+                    <div class="tariff__row">
+                        <div class="tariff__rowTitle">
+                            8-800 (Бесплатные звонки из любой точки РФ)
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            Включено
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            Включено
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            Включено
+                        </div>
+                    </div>
+                    <div class="tariff__row">
+                        <div class="tariff__rowTitle">
+                            Устная дистанционная консультация по вопросам налогообложения доходов физического лица и
+                            получения налоговых вычетов
+                            <p class="tariff__subtext">
+                                Мы ответим на все ваши вопросы, связанные с получением налогового вычета и посчитаем
+                                сумму, которую можно получить. Расскажем о положенных льготах и иных возможностях
+                            </p>
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            3 консультации <br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            3 консультации <br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            6 консультации <br> в год
+                        </div>
+                    </div>
+                    <div class="tariff__row">
+                        <div class="tariff__rowTitle">
+                            Личный Кабинет
+                            <p class="tariff__subtext">
+                                Персональный раздел, находящийся
+                                на сайте Компании (<a class="label"
+                                    href="https://advoservice.ru/domrf">https://advoservice.ru/domrf</a> ). В Личном
+                                кабинете размещены аудиозаписи устных консультаций, через Личный кабинет можно направить
+                                и получить письменные документы
+                            </p>
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            Включено
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            Включено
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            Включено
+                        </div>
+                    </div>
+                    <div class="tariff__row">
+                        <div class="tariff__rowTitle">
+                            Предоставление данных о перечне документов, необходимых для получения налогового вычета
+                            (через Личный кабинет)
+                            <p class="tariff__subtext">
+                                Мы составим и направим перечень документов, которые необходимо предоставить в налоговый
+                                орган для получения вычета
+                            </p>
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            1 раз<br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            2 разa<br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            2 разa<br> в год
+                        </div>
+                    </div>
+                    <div class="tariff__row">
+                        <div class="tariff__rowTitle">
+                            Информирование о порядке и способах получения документов, необходимых для получения
+                            налогового вычета
+                            <p class="tariff__subtext">
+                                Мы расскажем о процедуре и сроках получения налогового вычета
+                            </p>
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            1 раз<br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            2 раза<br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            2 раза<br> в год
+                        </div>
+                    </div>
+                    <div class="tariff__row">
+                        <div class="tariff__rowTitle">
+                            Экспертиза документов
+                            <p class="tariff__subtext">
+                                Мы проверим и проведем анализ, предоставленных документов. Сообщим о необходимости
+                                внесения изменений
+                            </p>
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            1 раз<br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            2 раза<br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            2 раза<br> в год
+                        </div>
+                    </div>
+                    <div class="tariff__row">
+                        <div class="tariff__rowTitle">
+                            Заполнение налоговой декларации
+
+                            <p class="tariff__subtext">
+                                Мы оформим налоговую декларацию, с учетом предоставленных документов
+                            </p>
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            1 раз<br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            1 раз<br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            1 раз<br> в год
+                        </div>
+                    </div>
+                    <div class="tariff__row">
+                        <div class="tariff__rowTitle">
+                            Подготовка заявления на предоставление налогового вычета
+                            <p class="tariff__subtext">
+                                Мы подготовим заявление для получения налогового вычета
+
+                            </p>
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            1 раз<br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            3 раза<br> в год
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            2 раза<br> в год
+                        </div>
+                    </div>
+                    <div class="tariff__row">
+                        <div class="tariff__rowTitle">
+                            Подача декларации с использованием ЭП
+                            <p class="tariff__subtext">
+                                Мы подготовим, оформим и отправим все необходимые документы в налоговые органы без
+                                вашего участия, при помощи ЭП (опция доступна только на тарифе ВИП)
+                            </p>
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            нет
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            нет
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            1 раз<br> в год
+                        </div>
+                    </div>
+                    <div class="tariff__row tariff__row_head">
+                        <div class="tariff__rowTitle">
+                            Срок действия Сертификата
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            Один год
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            Один год
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            Один год
+                        </div>
+                    </div>
+                    <div class="tariff__row tariff__row_head">
+                        <div class="tariff__rowTitle">
+                            Стоимость Сертификата (в т.ч. НДС)
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            2900 рублей
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            3900 рублей
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            7000 рублей
+                        </div>
+                    </div>
+                    <div class="tariff__row tariff__row_head" style="border-bottom: none;">
+                        <div class="tariff__rowTitle">
+
+                        </div>
+                        <div class="tariff__rowValue tariff_light">
+                            <div class="buying" id="button_light" data-tariff="light">
+                                КУПИТЬ
+                            </div>
+                        </div>
+                        <div class="tariff__rowValue tariff_standart">
+                            <div class="buying" id="button_standart" data-tariff="standart">
+                                КУПИТЬ
+                            </div>
+                        </div>
+                        <div class="tariff__rowValue tariff_vip">
+                            <div class="buying" id="button_vip" data-tariff="vip">
+                                КУПИТЬ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__contacts">
+                        <a href="tel:+74992151477" class="footer__tel">
+                            +7 (499) 215-14-77
+                        </a>
+                        <p class="footer__address">
+                            Услугу предоставляет ООО «Национальная юридическая служба» <br>
+                            115054, Москва, Большой Строченовский переулок, дом 22/25, офис 300 ИНН: 7702745920
+                        </p>
+                    </div>
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/amulex.ru/" target=_blank class="social__link fb"></a>
+                        <a href="https://vk.com/amulexrussia" target=_blank class="social__link vk"></a>
+                        <a href="https://www.instagram.com/amulex.ru/" target=_blank class="social__link insta">
+                            <div class="insta__back"></div>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCO-XSIDldxH-Iz-vQa9FirA" target=_blank
+                            class="social__link youtube"></a>
+                        <a href="#header" class="scrollTo"><img class="display_button" src="images/knopka.svg" alt="">
+                            <img style="border: none; margin-top: 0px;" class="mobile_button social__link"
+                                src="images/knopkamob.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <hr class="footer__hr">
+                <a href="https://amulex.ru/storage/policy/PG6ZA5rGXBDRtdCU2NgmCEoXBsDyVLUVKSjhxXgZ.pdf" target=_blank
+                    class="green_hover footer__opd">
+                    Политика обработки персональных данных
+                </a>
+                <br>
+                <br>
+                <a href="docs/od.pdf" target=_blank class="green_hover footer__opd">
+                    Правила пользования информационно-правовой поддержкой с использованием интернет-сервиса и
+                    юридической телефонной линии, Cертификаты: «Налоговая поддержка Лайт», «Налоговая поддержка»,
+                    «Налоговая поддержка ВИП»
+                </a>
+                <br>
+                <br>
+                <a href="docs/pamyatka.pdf" target=_blank class="green_hover footer__opd">
+                    Памятка к Сертификатам «Налоговая поддержка»
+                </a>
+            </div>
+        </footer>
+    </div>
+
+
+    <div id="sale_form">
+        <img id="closeModal" class="close_light" src="images/close.svg" alt="">
+        <h1>Купить Сертификат</h1>
+        <p id="form_text"></p><br>
+        <p>Укажите свои действующие e-mail и телефон, на него мы пришлем Сертификат и инструкции:</p>
+        <form action="https://pay2.amulex.ru/sales/external-sale/create" method='post' id='buy_form' role='form'>
+            <input type="hidden" name="sale[return_url]" value="">
+            <input type="hidden" name='rate_id' value="" id='sale_id'>
+            <input type="hidden" name='token' id='sale_key' value="">
+            <input type="hidden" name='rate_cost' value="">
+            <div class="form_flex">
+                <div>
+                    <div class="mail"> <label class="label" for="lastname">Введите фамилию</label>
+                        <br>
+                        <input type="text" name='sale[lastname]' id="lastname" required>
+                    </div>
+
+                    <div class="mail"> <label class="label" for="firstname">Введите имя</label>
+                        <br>
+                        <input type="text" name='sale[name]' id='firstname' required>
+                    </div>
+                    <div class="mail"> <label class="label" for="surname">Введите отчество</label>
+                        <br>
+                        <input type="text" name='sale[surname]' id="surname" required>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mail"> <label class="label" for="email">Введите email</label>
+                        <br>
+                        <input type="email" name='sale[email]' id="email" required>
+                    </div>
+                    <div class="phone"> <label for="phone" class="label">Номер телефона</label>
+                        <br>
+                        <input type="text" name='sale[mobile]' id="phone" required>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="agreement">
+                <label>
+                    <input class="checkbox" type="checkbox" name="checkbox-test" id="agree" required>
+                    <span class="checkbox-custom"></span>
+                    <span class="label" style="margin-left: 34px; margin-top: -23px;"> Используя сайт, в том числе для
+                        обращений, <br> и нажимая на данную кнопку, я свободно, <br> своей волей и в своем интересе даю
+                        <a href="docs/agreement.pdf" target="_blank">согласие на обработку персональных данных</a>
+                    </span>
+                </label>
+            </div>
+            <button class="button_buy" id="accept">
+                Купить
+            </button>
+        </form>
+
+        <!-- for commit -->
+
+
+</body>
+
+</html>
